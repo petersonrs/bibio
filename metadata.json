@@ -1,0 +1,5 @@
+{
+  "name": "Biologia Celular Interativa",
+  "description": "Uma aplicação web para aprender sobre transporte celular em biologia através de informações detalhadas, um quiz interativo e um assistente IA com tecnologia Gemini.",
+  "requestFramePermissions": []
+}
