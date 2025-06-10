@@ -36,59 +36,50 @@ export const INFO_TAB_CONTENT: { title: string; sections: InfoSection[] }[] = [
       {
         title: 'Definição Geral',
         description: 'Movimento de substâncias através da membrana plasmática com gasto de energia (ATP) pela célula, geralmente ocorrendo contra o gradiente de concentração (da área de menor para a de maior concentração).',
-        image: 'https://picsum.photos/seed/activetransport/400/250',
+        image: 'https://static.escolakids.uol.com.br/2021/08/esquema-ilustrativo-da-movimentacao-de-solutos-contra-gradientes-de-concentracao-durante-o-transporte-ativo.jpg',
       },
       {
         title: 'Transporte Ativo Primário',
         description: 'Utiliza diretamente a energia da hidrólise do ATP para bombear substâncias através da membrana. A proteína transportadora é frequentemente uma ATPase.',
-        image: 'https://picsum.photos/seed/primaryactive/400/250',
         example: 'Bomba de Sódio e Potássio (Na+/K+ ATPase): bombeia 3 íons Na+ para fora da célula e 2 íons K+ para dentro, essencial para manter o potencial de membrana e o volume celular.',
       },
       {
         title: 'Transporte Ativo Secundário (Co-transporte)',
         description: 'Utiliza a energia armazenada no gradiente de concentração de um íon (geralmente Na+, estabelecido por transporte ativo primário) para transportar outra substância contra seu próprio gradiente. Não utiliza ATP diretamente.',
-        image: 'https://picsum.photos/seed/secondaryactive/400/250',
         example: 'Simporte Na+/glicose: o transporte de Na+ a favor do seu gradiente para dentro da célula fornece energia para transportar glicose contra seu gradiente para dentro da célula (ocorre nas células intestinais e renais).',
         subSections: [
           {
             title: "Simporte",
             description: "Ambas as substâncias são transportadas na mesma direção através da membrana.",
-            image: "https://picsum.photos/seed/symport/300/200"
           },
           {
             title: "Antiporte",
             description: "As substâncias são transportadas em direções opostas através da membrana.",
-            image: "https://picsum.photos/seed/antiport/300/200"
           }
         ]
       },
       {
         title: 'Transporte em Massa (Endocitose e Exocitose)',
         description: 'Mecanismos para transportar grandes moléculas, partículas ou grandes quantidades de substâncias para dentro (endocitose) ou para fora (exocitose) da célula, envolvendo a formação e fusão de vesículas.',
-        image: 'https://picsum.photos/seed/bulktransport/400/250',
         subSections: [
           {
             title: 'Endocitose',
             description: 'Processo de internalização de material pela célula. A membrana plasmática se invagina e forma uma vesícula contendo o material.',
-            image: 'https://picsum.photos/seed/endocytosisprocess/350/220',
             example: 'Captura de nutrientes, defesa contra patógenos.',
             subSections: [
               {
                 title: 'Fagocitose ("comer celular")',
                 description: 'Englobamento de partículas grandes e sólidas, como bactérias, detritos celulares ou vírus. Formam-se fagossomos.',
-                image: 'https://picsum.photos/seed/phagocytosis/300/200',
                 example: 'Glóbulos brancos (macrófagos) fagocitando bactérias.',
               },
               {
                 title: 'Pinocitose ("beber celular")',
                 description: 'Englobamento de fluidos extracelulares e solutos dissolvidos de forma não específica. Formam-se pinossomos.',
-                image: 'https://picsum.photos/seed/pinocytosis/300/200',
                 example: 'Absorção de gotículas de gordura no intestino delgado.',
               },
               {
                 title: 'Endocitose Mediada por Receptor',
                 description: 'Forma altamente específica de endocitose onde moléculas se ligam a receptores específicos na superfície celular, desencadeando a formação de vesículas revestidas (geralmente por clatrina).',
-                image: 'https://picsum.photos/seed/receptormediated/300/200',
                 example: 'Captação de colesterol (LDL) pelas células.',
               },
             ],
@@ -96,7 +87,6 @@ export const INFO_TAB_CONTENT: { title: string; sections: InfoSection[] }[] = [
           {
             title: 'Exocitose',
             description: 'Processo de liberação de substâncias para o exterior da célula. Vesículas contendo o material se fundem com a membrana plasmática, liberando seu conteúdo no meio extracelular.',
-            image: 'https://picsum.photos/seed/exocytosisprocess/350/220',
             example: 'Secreção de hormônios (insulina), neurotransmissores, enzimas digestivas, muco.',
           },
         ],
