@@ -8,7 +8,7 @@ export const INFO_TAB_CONTENT: { title: string; sections: InfoSection[] }[] = [
       {
         title: 'Definição Geral',
         description: 'Movimento de substâncias através da membrana plasmática sem gasto de energia (ATP) pela célula, ocorrendo a favor do gradiente de concentração (da área de maior para a de menor concentração).',
-        image: 'https://picsum.photos/seed/passivetransport/400/250',
+        image: 'utils/01.jpg',
       },
       {
         title: 'Difusão Simples',
