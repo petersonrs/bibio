@@ -113,7 +113,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Transporte Ativo', 'Transporte Passivo', 'Endocitose', 'Exocitose'],
     correctAnswer: 'Transporte Passivo',
     explanation: 'O transporte passivo não requer energia metabólica (ATP) da célula e ocorre quando as substâncias se movem de uma área de maior concentração para uma de menor concentração.',
-    image: 'https://picsum.photos/seed/gradientflow/300/200',
   },
   {
     id: 'q2',
@@ -121,12 +120,10 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Osmose', 'Difusão Simples', 'Transporte Ativo Primário', 'Fagocitose'],
     correctAnswer: 'Difusão Simples',
     explanation: 'A difusão simples é o movimento de pequenas moléculas apolares, como o O2, diretamente através da bicamada lipídica, a favor do seu gradiente de concentração.',
-    image: 'https://picsum.photos/seed/alveolioles/300/200',
   },
   {
     id: 'q3',
     question: 'A imagem ilustra uma proteína de membrana auxiliando a passagem de uma molécula específica. Qual tipo de transporte é este?',
-    image: 'https://picsum.photos/seed/proteincanal/300/200',
     options: ['Difusão Simples', 'Difusão Facilitada', 'Bomba de Sódio-Potássio', 'Pinocitose'],
     correctAnswer: 'Difusão Facilitada',
     explanation: 'A difusão facilitada envolve proteínas de membrana (canais ou carreadoras) para ajudar no transporte de substâncias que não conseguem atravessar facilmente a bicamada lipídica sozinhas.',
@@ -144,7 +141,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Inchará e poderá romper (hemólise)', 'Murchará (crenação)', 'Nada acontecerá', 'Aumentará de tamanho indefinidamente'],
     correctAnswer: 'Murchará (crenação)',
     explanation: 'Em um meio hipertônico, a água sai da célula por osmose, fazendo com que ela murche. Este fenômeno é chamado de crenação em células animais.',
-    image: 'https://picsum.photos/seed/crenation/300/200',
   },
   {
     id: 'q6',
@@ -159,7 +155,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Transporte Passivo', 'Difusão Facilitada', 'Transporte Ativo Primário', 'Transporte Ativo Secundário'],
     correctAnswer: 'Transporte Ativo Primário',
     explanation: 'A bomba de Na+/K+ utiliza diretamente ATP para bombear íons Na+ para fora e K+ para dentro da célula, contra seus respectivos gradientes de concentração.',
-    image: 'https://picsum.photos/seed/sodiumpotassiumpump/300/200',
   },
   {
     id: 'q8',
@@ -174,7 +169,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Pinocitose', 'Exocitose', 'Fagocitose', 'Difusão Simples'],
     correctAnswer: 'Fagocitose',
     explanation: 'Fagocitose ("comer celular") é o processo pelo qual células englobam partículas grandes, como bactérias ou detritos celulares.',
-    image: 'https://picsum.photos/seed/macrophage/300/200',
   },
   {
     id: 'q10',
@@ -182,7 +176,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Endocitose', 'Exocitose', 'Transporte Ativo Primário', 'Osmose'],
     correctAnswer: 'Exocitose',
     explanation: 'Exocitose é o processo pelo qual vesículas se fundem com a membrana plasmática para liberar seu conteúdo para fora da célula, como ocorre com neurotransmissores.',
-    image: 'https://picsum.photos/seed/neurotransmitter/300/200',
   },
   {
     id: 'q11',
@@ -197,7 +190,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Plasmolisada (murcha)', 'Flácida', 'Túrgida (inchada)', 'Lisada (rompe)'],
     correctAnswer: 'Túrgida (inchada)',
     explanation: 'Devido à parede celular, a célula vegetal em meio hipotônico absorve água e fica túrgida, mas geralmente não rompe. A pressão de turgor é importante para a sustentação da planta.',
-    image: 'https://picsum.photos/seed/plantturgor/300/200',
   },
   {
     id: 'q13',
@@ -219,7 +211,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Partículas sólidas grandes', 'Fluidos extracelulares e solutos dissolvidos', 'Apenas água pura', 'Bactérias específicas'],
     correctAnswer: 'Fluidos extracelulares e solutos dissolvidos',
     explanation: 'A pinocitose é um tipo de endocitose em que a célula ingere pequenas quantidades de fluido extracelular e as moléculas dissolvidas nele.',
-    image: 'https://picsum.photos/seed/cellulardrinking/300/200',
   },
   {
     id: 'q16',
@@ -241,12 +232,10 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Mitocôndria', 'Núcleo', 'Lisossomo', 'Complexo de Golgi'],
     correctAnswer: 'Complexo de Golgi',
     explanation: 'O Complexo de Golgi modifica, classifica e empacota proteínas e lipídios em vesículas que são então direcionadas para a exocitose ou outros destinos celulares.',
-    image: 'https://picsum.photos/seed/golgiapparatus/300/200',
   },
   {
     id: 'q19',
     question: 'A imagem mostra uma célula englobando uma partícula grande. Este processo é chamado de:',
-    image: 'https://picsum.photos/seed/engulfingparticle/300/200',
     options: ['Pinocitose', 'Exocitose', 'Fagocitose', 'Osmose'],
     correctAnswer: 'Fagocitose',
     explanation: 'A fagocitose é o processo de endocitose de partículas sólidas grandes, como bactérias ou detritos celulares, formando um fagossomo.',
@@ -257,7 +246,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Moléculas de água a canais', 'Lipídios à membrana', 'Moléculas sinalizadoras (ligantes) a proteínas receptoras específicas', 'ATP a proteínas transportadoras'],
     correctAnswer: 'Moléculas sinalizadoras (ligantes) a proteínas receptoras específicas',
     explanation: 'Este tipo de endocitose é altamente seletivo, pois só ocorre quando ligantes específicos se unem a seus receptores na superfície celular, desencadeando a internalização.',
-    image: 'https://picsum.photos/seed/receptormediatedendo/300/200',
   },
   {
     id: 'q21',
@@ -272,7 +260,6 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Difusão Simples', 'Transporte Ativo Primário', 'Difusão Facilitada', 'Pinocitose'],
     correctAnswer: 'Difusão Facilitada',
     explanation: 'Canais iônicos são proteínas que formam poros através da membrana, permitindo a passagem rápida e seletiva de íons por difusão facilitada.',
-    image: 'https://picsum.photos/seed/ionchannel/300/200',
   },
   {
     id: 'q23',
@@ -287,12 +274,10 @@ export const BIOLOGY_QUIZ_QUESTIONS: QuizQuestionType[] = [
     options: ['Difusão Simples de Ca2+', 'Difusão Facilitada de Ca2+', 'Transporte Ativo de Ca2+', 'Osmose de Ca2+'],
     correctAnswer: 'Transporte Ativo de Ca2+',
     explanation: 'Mover Ca2+ contra seu gradiente de concentração (de baixa para alta) e com gasto de ATP caracteriza o transporte ativo, como o realizado pela bomba de cálcio (SERCA).',
-    image: 'https://picsum.photos/seed/calciumpump/300/200',
   },
   {
     id: 'q25',
     question: 'A imagem mostra vesículas se fundindo com a membrana plasmática para liberar seu conteúdo. Esse processo é:',
-    image: 'https://picsum.photos/seed/vesiclefusion/300/200',
     options: ['Endocitose', 'Fagocitose', 'Pinocitose', 'Exocitose'],
     correctAnswer: 'Exocitose',
     explanation: 'A exocitose é o mecanismo pelo qual as células transportam moléculas para fora, empacotadas em vesículas que se fundem com a membrana plasmática.',
