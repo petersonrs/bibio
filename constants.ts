@@ -42,11 +42,13 @@ export const INFO_TAB_CONTENT: { title: string; sections: InfoSection[] }[] = [
         title: 'Transporte Ativo Primário',
         description: 'Utiliza diretamente a energia da hidrólise do ATP para bombear substâncias através da membrana. A proteína transportadora é frequentemente uma ATPase.',
         example: 'Bomba de Sódio e Potássio (Na+/K+ ATPase): bombeia 3 íons Na+ para fora da célula e 2 íons K+ para dentro, essencial para manter o potencial de membrana e o volume celular.',
+        image: 'https://static.wixstatic.com/media/fb2179_cd7e8c56546f4fb59dabda2f4c7e3836~mv2.jpg/v1/fill/w_756,h_406,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/TRANSPORTE%20ATIVO%20PRIMARIO.jpg',
       },
       {
         title: 'Transporte Ativo Secundário (Co-transporte)',
         description: 'Utiliza a energia armazenada no gradiente de concentração de um íon (geralmente Na+, estabelecido por transporte ativo primário) para transportar outra substância contra seu próprio gradiente. Não utiliza ATP diretamente.',
         example: 'Simporte Na+/glicose: o transporte de Na+ a favor do seu gradiente para dentro da célula fornece energia para transportar glicose contra seu gradiente para dentro da célula (ocorre nas células intestinais e renais).',
+        image; 'https://static.wixstatic.com/media/fb2179_5f5a77ce23a14df9898d8902675563dd~mv2.jpg/v1/fill/w_903,h_513,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/TRANSPORTE%20ATIVO%20SECUNDARIO.jpg',
         subSections: [
           {
             title: "Simporte",
@@ -66,6 +68,7 @@ export const INFO_TAB_CONTENT: { title: string; sections: InfoSection[] }[] = [
             title: 'Endocitose',
             description: 'Processo de internalização de material pela célula. A membrana plasmática se invagina e forma uma vesícula contendo o material.',
             example: 'Captura de nutrientes, defesa contra patógenos.',
+            image: 'https://escolaeducacao.com.br/wp-content/uploads/2020/04/endocitose.jpg',
             subSections: [
               {
                 title: 'Fagocitose ("comer celular")',
